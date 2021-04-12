@@ -7,3 +7,29 @@
 body {
     font-family: var(--main-font);
 }
+
+/* ====== HEADER ====== */
+.navigation-list-link
+.address-mail
+.address-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    /* color: #2196F3; */
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone-number:hover,
+.address-phone-number:focus {
+    color: var(--main-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+/* ====== END HEADER ====== */
