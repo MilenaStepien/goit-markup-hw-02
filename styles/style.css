@@ -20,6 +20,8 @@ body {
 .navigation-logo:focus,
 .navigation-list-link:hover,
 .navigation-list-link:focus,
+.address-map:hover,
+.address-map:focus,
 .address-mail:hover,
 .address-mail:focus,
 .address-phone-number:hover,
@@ -27,7 +29,7 @@ body {
   color: var(--main-color);
 }
 
-.address {
+.address .address-mail .address-phone-number {
   font-style: normal;
 }
 
@@ -36,6 +38,7 @@ body {
 /* ====== MAIN ====== */
 
 .button:focus {
+  .cursor: pointer;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -56,18 +59,18 @@ body {
 }
 
 .title-h3 {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #212121;
 }
 
 .text {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -75,7 +78,7 @@ body {
 .title-h2 {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -83,9 +86,13 @@ body {
 
 .profession {
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.188;
   letter-spacing: 0.03em;
   color: #757575;
 }
 /* ====== END MAIN ====== */
+
+/* ====== FOOTER ====== */
+
+/* ====== END FOOTER ====== */
