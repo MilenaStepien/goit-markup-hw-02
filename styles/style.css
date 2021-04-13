@@ -87,19 +87,12 @@ body {
 }
 
 .modal-button {
-  position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
 top: 430px;
-background color: var(--main-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-position: absolute;
-width: 117px;
-height: 30px;
-left: 742px;
-top: 440px;
 font-family: var(--main-font);
 font-weight: 700;
 font-size: 16px;
@@ -108,7 +101,8 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: var(--rd-color)
+color: var(--rd-color);
+background-color: var(--main-color);
 }
 
 .title-h1 {
