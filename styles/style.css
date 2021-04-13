@@ -30,6 +30,10 @@ body {
   color: var(--fth-color);
 }
 
+.logo-second-part-two {
+  color: var(--rd-color);
+}
+
 .navigation-list-link,
 .address-mail,
 .address-phone-number {
@@ -60,13 +64,16 @@ body {
 .address-mail:active,
 .address-phone-number:hover,
 .address-phone-number:focus,
-.address-phone-number:active,
-.button:focus,
-.button:hover,
-.button:active {
+.address-phone-number:active {
   color: var(--main-color);
 }
 
+.modal-button:focus,
+.modal-button:hover,
+.modal-button:active {
+  color: var(--fth-color);
+  cursor: pointer;
+}
 /* ====== END HEADER ====== */
 
 /* ====== MAIN ====== */
@@ -79,19 +86,29 @@ body {
   top: 80px;
 }
 
-.button {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  cursor: pointer;
-  color: var(--rd-color);
+.modal-button {
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background color: var(--main-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+position: absolute;
+width: 117px;
+height: 30px;
+left: 742px;
+top: 440px;
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--rd-color)
 }
 
 .title-h1 {
@@ -163,3 +180,43 @@ body {
 }
 
 /* ====== END FOOTER ====== */
+
+/* ====== PORTFOLIO ====== */
+
+.button-filtr {
+width: 101.14px;
+height: 26px;
+left: 459.93px;
+top: 180px;
+font-family: var(--main-font)
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--fth-color)
+background-color: var(--second-background-color);
+border-radius: 4px;
+}
+
+.button-filtr:focus,
+.button-filtr:hover,
+.button-filtr:active {
+  background-color: var(--main-color);
+  color: var(--rd-color);
+  cursor: pointer;
+}
+
+.list-menu {
+width: 322px;
+height: 36px;
+left: 239px;
+top: 576px;
+font-family: var(--main-font)
+font-weight: bold;
+font-size: 18px;
+line-height: 0.200;
+letter-spacing: 0.06em;
+color: var(--fth-color)
+text-decoration: none;
+}
