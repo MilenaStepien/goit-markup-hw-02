@@ -64,7 +64,10 @@ body {
 .address-mail:active,
 .address-phone-number:hover,
 .address-phone-number:focus,
-.address-phone-number:active {
+.address-phone-number:active,
+.list-menu:hover,
+.list-menu:focus,
+.list-menu:active {
   color: var(--main-color);
 }
 
@@ -211,6 +214,6 @@ font-weight: bold;
 font-size: 18px;
 line-height: 0.200;
 letter-spacing: 0.06em;
-color: var(--fth-color)
+color: var(--fth-color);
 text-decoration: none;
 }
