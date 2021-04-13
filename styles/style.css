@@ -1,7 +1,13 @@
 :root {
-  --main-font: Roboto;
-  --secondary-font: Raleway;
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
   --main-color: #2196f3;
+  --first-background-color: #2f303a;
+  --second-background-color: #f5f4fa;
+  --nd-color: #757575;
+  --rd-color: #ffffff;
+  --fth-color:  #212121;
+  --fifth-color: #000000;
 }
 
 body {
@@ -14,8 +20,16 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  color: var(--main-color);
+  text-decoration: none;
 }
 
+.logo-first-part {
+    color: var(--main-color);
+}
+.logo-second-part {
+    color: var(--fifth-color)
+}
 .navigation-logo:hover,
 .navigation-logo:focus,
 .navigation-list-link:hover,
@@ -25,27 +39,39 @@ body {
 .address-mail:hover,
 .address-mail:focus,
 .address-phone-number:hover,
-.address-phone-number:focus {
+.address-phone-number:focus,
+.button:focus,
+.button:hover {
   color: var(--main-color);
 }
 
-.address .address-mail .address-phone-number {
-  font-style: normal;
-}
 
 /* ====== END HEADER ====== */
 
 /* ====== MAIN ====== */
 
-.button:focus {
-  .cursor: pointer;
-  background: #2196f3;
+.section {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  color:var(--first-background-color)
+  
+}
+.button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
-  color: #ffffff;
+  color: var(--rd-color)
+  cursor: pointer;
 }
 
 .title-h1 {
@@ -55,7 +81,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #FFFFFF;*/
+  /*color: var(--rd-color)*/
 }
 
 .title-h3 {
@@ -64,7 +90,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--fth-color)
 }
 
 .text {
@@ -72,7 +98,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--nd-color)
 }
 
 .title-h2 {
@@ -81,7 +107,7 @@ body {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--fth-color)
 }
 
 .profession {
@@ -89,10 +115,21 @@ body {
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--nd-color)
 }
 /* ====== END MAIN ====== */
 
 /* ====== FOOTER ====== */
+
+.navigation-logo .address-mail .address-phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none
+}
+
+  .address-map .address-mail .address-phone-number {
+  font-style: normal;
 
 /* ====== END FOOTER ====== */
